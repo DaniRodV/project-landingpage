@@ -38,9 +38,9 @@ ul {
     background-color: #1F2937;
 }
 
-.placeholder1 {
-    min-width: 525px;
-    height: auto;
+.movie-posters {
+    min-width: auto;
+    height: 250px;
 }
 
 .hero-main {
@@ -76,7 +76,7 @@ ul {
     font-size: 38px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 32px 0;
+    padding: 32px 0 16px;
 }
 
 .info-container {
@@ -84,7 +84,8 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    margin: 12px 0 112px 0;
+    padding: 0 56px 56px;
+    margin: 0 0 56px 0;
 }
 
 .info {
@@ -96,14 +97,14 @@ ul {
 }
 
 .text {
-    max-width: 175px;
+    width: 175px;
     text-align: center;
+    font-weight: 700;
 }
 
-.placeholder2 {
-    max-width: 175px;
-    height: auto;
-    border: 4px solid #3882F6;
+.image {
+    width: 175px;
+    height: 175px;
     border-radius: 16px;
 }
 
