@@ -11,10 +11,11 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
-    padding: 0 112px 0 112px;
+    padding: 0;
+    gap: 96px;
 }
 
 .header-logo {
@@ -71,7 +72,7 @@ ul {
     border-radius: 10px;
     font-size: 18px;
     margin: 8px 4px 0 4px;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .info-title {
@@ -131,4 +132,39 @@ div.author {
     font-size: 24px;
     width: 750px;
     justify-content: flex-end;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    padding: 56px;
+}
+
+.sign-up {
+    display: flex;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.sign-up-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.its-time {
+    font-weight: 900;
+    margin-bottom: auto;
+}
+
+.selling-it {
+    margin-top: auto;
+}
+
+.sign-up .sign-up-button {
+    margin: 0;
+    border: 2px solid #F9FAF8;
 }
